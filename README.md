@@ -24,29 +24,54 @@ A Fallout-inspired SDDM login theme built for Qt 6 and SDDM 0.21+.
 
 ## Installation
 
-Copy the theme:
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Vaderfan10/fallout-sddm.git
+cd fallout-sddm
+```
+
+### 2. Install the Theme
 
 ```bash
 sudo cp -r fallout-sddm /usr/share/sddm/themes/
 ```
 
-Set it as the active theme:
+### 3. Set the Theme as Default
 
 ```bash
 printf "[Theme]\nCurrent=fallout-sddm\n" | sudo tee /etc/sddm.conf
 ```
 
-Verify:
+### 4. Verify the Configuration
 
 ```bash
 cat /etc/sddm.conf
 ```
 
-Expected:
+Expected output:
 
 ```ini
 [Theme]
 Current=fallout-sddm
+```
+
+### 5. Test the Theme (Optional)
+
+```bash
+sddm-greeter-qt6 --test-mode --theme ./fallout-sddm
+```
+
+### 6. Restart SDDM
+
+```bash
+sudo systemctl restart sddm
+```
+
+Or simply reboot:
+
+```bash
+reboot
 ```
 
 ## Sound Controls
