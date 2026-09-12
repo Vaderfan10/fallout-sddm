@@ -2,7 +2,7 @@
 
 A Fallout-inspired SDDM login theme built for Qt 6 and SDDM 0.21+.
 
-preview.png
+![Fallout SDDM login screen](Screenshots/fallout-login.png)
 
 ## Features
 
@@ -30,7 +30,7 @@ Copy the theme:
 sudo cp -r fallout-sddm /usr/share/sddm/themes/
 ```
 
-Set as the active theme:
+Set it as the active theme:
 
 ```bash
 printf "[Theme]\nCurrent=fallout-sddm\n" | sudo tee /etc/sddm.conf
@@ -59,17 +59,15 @@ property real systemVolume: 1.0
 ```
 
 | Setting | Description |
-|----------|-------------|
-| keyVolume | Typing / terminal sounds |
-| systemVolume | Power-on and power-off sounds |
+|---|---|
+| `keyVolume` | Typing and terminal sounds |
+| `systemVolume` | Power-on and power-off sounds |
 
 ## Virtual Keyboard
 
 The theme includes a manual virtual keyboard toggle in the lower-right corner.
 
-Virtual keyboard support is optional.
-
-If you wish to enable SDDM's Qt Virtual Keyboard:
+Virtual keyboard support is optional. To enable SDDM's Qt Virtual Keyboard, create an SDDM configuration file containing:
 
 ```ini
 [General]
@@ -85,8 +83,19 @@ fallout-sddm/
 ├── Sounds/
 ├── Themes/
 │   └── fallout.conf
-└── translations/
+├── translations/
+└── Screenshots/
 ```
+
+## Screenshots
+
+### Authentication
+
+![Fallout SDDM authentication screen](Screenshots/fallout-Auth.png)
+
+### Boot Sequence
+
+![Fallout SDDM boot sequence](Screenshots/fallout-boot.png)
 
 ## License
 
