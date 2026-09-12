@@ -97,6 +97,29 @@ fallout-sddm/
 
 ![Fallout SDDM boot sequence](Screenshots/fallout-boot.png)
 
+## Acknowledgements
+
+Several of the terminal sound effects included with this theme were sourced from the Hyper ROBCO project created by smiley.
+
+Project:
+https://github.com/smiley/hyper-robco
+
+The following audio assets were adapted for use in this theme:
+
+- ui_hacking_charsingle_01.wav
+- ui_hacking_charsingle_02.wav
+- ui_hacking_charsingle_03.wav
+- ui_hacking_charsingle_04.wav
+- ui_hacking_charsingle_05.wav
+- ui_hacking_charsingle_06.wav
+- ui_hacking_charenter_01.wav
+- ui_hacking_charenter_02.wav
+- ui_hacking_charenter_03.wav
+
+Additional startup and shutdown audio included with this theme was derived from and converted from assets included with the Hyper ROBCO project.
+
+Special thanks to smiley for making the original project available.
+
 ## License
 
 MIT
