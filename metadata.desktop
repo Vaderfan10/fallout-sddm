@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=fallout-sddm
+Description=ROBCO Industries Terminal
+Author=Vaderfan10
+Version=1.0
+MainScript=Main.qml
+Theme-Id=fallout-sddm
+Theme-API=2.0
+Type=sddm-theme
+ConfigFile=Themes/fallout.conf
+TranslationsDirectory=translations
+QtVersion=6
