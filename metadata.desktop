@@ -8,5 +8,4 @@ Theme-Id=fallout-sddm
 Theme-API=2.0
 Type=sddm-theme
 ConfigFile=Themes/fallout.conf
-TranslationsDirectory=translations
 QtVersion=6
